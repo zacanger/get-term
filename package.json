@@ -1,6 +1,6 @@
 {
   "name": "get-term",
-  "description": "get-term",
+  "description": "Get user's terminal, or a reasonable default.",
   "version": "0.0.1",
   "author": {
     "name": "Zac Anger",
@@ -10,8 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": ""
+    "start": "node index"
   },
   "homepage": "https://github.com/zacanger/get-term#readme",
   "repository": {
@@ -20,8 +19,8 @@
   },
   "bugs": "https://github.com/zacanger/get-term/issues",
   "keywords": [
-    "",
-    "get-term"
+    "term",
+    "terminal"
   ],
   "dependencies": {},
   "devDependencies": {},
