@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "test": "npm run test:lint",
-    "test:lint": "eslint -c .eslintrc.json index.js lib"
+    "test:lint": "eslint -c .eslintrc.json index.js lib",
+    "preversion": "npm t"
   },
   "homepage": "https://github.com/zacanger/get-term#readme",
   "repository": {
