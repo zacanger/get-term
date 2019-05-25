@@ -3,8 +3,8 @@
   "description": "Get user's terminal, or a reasonable default.",
   "version": "1.0.4",
   "author": {
-    "name": "Zac Anger",
     "email": "zac@zacanger.com",
+    "name": "Zac Anger",
     "url": "https://zacanger.com"
   },
   "license": "MIT",
@@ -14,9 +14,9 @@
     "lib"
   ],
   "scripts": {
+    "preversion": "sortpack && npm t",
     "test": "npm run test:lint",
-    "test:lint": "eslint -c .eslintrc.json index.js lib",
-    "preversion": "npm t"
+    "test:lint": "standard"
   },
   "homepage": "https://github.com/zacanger/get-term#readme",
   "repository": {
@@ -30,14 +30,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "babel-eslint": "10.0.1",
-    "eslint": "5.16.0",
-    "eslint-config-zacanger": "3.4.2",
-    "eslint-plugin-babel": "5.3.0",
-    "eslint-plugin-import": "2.17.2",
-    "eslint-plugin-node": "9.0.1",
-    "eslint-plugin-promise": "4.1.1",
-    "eslint-plugin-unicorn": "8.0.2"
+    "sortpack": "1.1.6",
+    "standard": "12.0.1"
   },
   "engines": {
     "node": ">=10.0.0"
