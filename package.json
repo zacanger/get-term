@@ -1,7 +1,7 @@
 {
   "name": "get-term",
   "description": "Get user's terminal, or a reasonable default.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
