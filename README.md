@@ -12,6 +12,4 @@ Get user's terminal, or a reasonable default.
 
 `require('get-term')() // => xterm`
 
-## License
-
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
