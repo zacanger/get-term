@@ -1,7 +1,7 @@
 {
   "name": "get-term",
   "description": "Get user's terminal, or a reasonable default.",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
@@ -40,5 +40,4 @@
     "type": "ko-fi",
     "url": "https://ko-fi.com/zacanger"
   }
-
 }
