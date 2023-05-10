@@ -2,6 +2,8 @@
 
 Get user's terminal, or a reasonable default.
 
+[Donate](https://ko-fi.com/zacanger)
+
 --------
 
 ## Installation
